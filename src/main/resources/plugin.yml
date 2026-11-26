@@ -7,5 +7,13 @@ author: UltimateRPG
 
 commands:
   urpg:
-    description: UltimateRPG Hauptbefehl
+    description: UltimateRPG Hauptmenü
     usage: /urpg
+    aliases:
+      - rpg
+      - ultimaterpg
+
+permissions:
+  ultimaterpg.admin:
+    description: UltimateRPG Administration
+    default: op
