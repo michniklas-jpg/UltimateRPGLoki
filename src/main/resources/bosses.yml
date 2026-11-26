@@ -1,1 +1,23 @@
-bosses: {}
+
+bosses:
+  infernal_king:
+    name: "&cInfernal King"
+    entity: WITHER_SKELETON
+    health: 500
+    damage: 15
+    weapon-drop: flame_blade
+    drop-chance: 0.15
+    rewards:
+      coins: 500
+      battlepass-xp: 250
+
+  void_lord:
+    name: "&5Void Lord"
+    entity: ENDERMAN
+    health: 1000
+    damage: 25
+    weapon-drop: void_reaper
+    drop-chance: 0.05
+    rewards:
+      coins: 1500
+      battlepass-xp: 500
