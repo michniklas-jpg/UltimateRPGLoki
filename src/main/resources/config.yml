@@ -1,0 +1,51 @@
+
+# =================================
+#          UltimateRPG
+# =================================
+
+settings:
+  language: de
+  debug: false
+
+database:
+  type: sqlite
+  file: database.db
+
+economy:
+  starting-coins: 100
+  currency-name: Coins
+
+performance:
+  max-active-bosses: 3
+  max-active-rifts: 2
+  max-active-meteorites: 1
+  max-particles-per-effect: 30
+
+  autosave-interval: 300
+
+bosses:
+  enabled: true
+
+weapons:
+  enabled: true
+
+quests:
+  enabled: true
+
+battlepass:
+  enabled: true
+  max-level: 50
+
+rifts:
+  enabled: true
+
+meteorites:
+  enabled: true
+
+skills:
+  enabled: true
+
+messages:
+  prefix: "&5&lUltimateRPG &8» "
+  no-permission: "&cDafür hast du keine Berechtigung!"
+  player-only: "&cDieser Befehl ist nur für Spieler!"
