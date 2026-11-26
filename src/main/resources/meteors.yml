@@ -1,0 +1,27 @@
+
+settings:
+  enabled: true
+  minimum-interval-minutes: 60
+  maximum-interval-minutes: 180
+  announcement: true
+  crater-radius: 4
+  guardian-count: 5
+
+types:
+  common:
+    chance: 60
+    material: IRON_BLOCK
+    rewards:
+      coins: 250
+
+  rare:
+    chance: 30
+    material: GOLD_BLOCK
+    rewards:
+      coins: 750
+
+  legendary:
+    chance: 10
+    material: DIAMOND_BLOCK
+    rewards:
+      coins: 2500
