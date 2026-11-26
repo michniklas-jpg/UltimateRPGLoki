@@ -1,1 +1,56 @@
-skills: {}
+
+trees:
+  mining:
+    name: "&7Mining"
+    icon: IRON_PICKAXE
+    skills:
+      miner:
+        name: "&7Erfahrener Miner"
+        max-level: 5
+        points-per-level: 1
+        effect: MINING_SPEED
+      fortune:
+        name: "&6Glück des Bergmanns"
+        max-level: 5
+        points-per-level: 1
+        effect: BONUS_DROPS
+
+  combat:
+    name: "&cCombat"
+    icon: DIAMOND_SWORD
+    skills:
+      strength:
+        name: "&cStärke"
+        max-level: 10
+        points-per-level: 1
+        effect: DAMAGE
+
+  farming:
+    name: "&aFarming"
+    icon: DIAMOND_HOE
+    skills:
+      harvest:
+        name: "&aErnte-Meister"
+        max-level: 5
+        points-per-level: 1
+        effect: BONUS_HARVEST
+
+  defense:
+    name: "&bDefense"
+    icon: SHIELD
+    skills:
+      vitality:
+        name: "&bVitalität"
+        max-level: 10
+        points-per-level: 1
+        effect: MAX_HEALTH
+
+  magic:
+    name: "&5Magic"
+    icon: ENCHANTED_BOOK
+    skills:
+      mana:
+        name: "&5Mana-Meister"
+        max-level: 5
+        points-per-level: 1
+        effect: MAGIC_DAMAGE
