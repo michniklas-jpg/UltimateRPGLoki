@@ -1,8 +1,4 @@
 
-# =================================
-#          UltimateRPG
-# =================================
-
 settings:
   language: de
   debug: false
@@ -10,42 +6,54 @@ settings:
 database:
   type: sqlite
   file: database.db
-
-economy:
-  starting-coins: 100
-  currency-name: Coins
-
-performance:
-  max-active-bosses: 3
-  max-active-rifts: 2
-  max-active-meteorites: 1
-  max-particles-per-effect: 30
-
   autosave-interval: 300
 
-bosses:
-  enabled: true
+player:
+  starting-coins: 100
+  starting-level: 1
+  starting-skill-points: 0
 
-weapons:
-  enabled: true
-
-quests:
-  enabled: true
+rpg:
+  max-level: 100
+  xp-base: 100
+  xp-multiplier: 1.35
 
 battlepass:
   enabled: true
   max-level: 50
+  xp-per-level: 1000
+  season-duration-days: 60
+
+quests:
+  enabled: true
+  daily-count: 3
+  weekly-count: 5
+  daily-reset-hour: 0
 
 rifts:
   enabled: true
+  max-active-rifts: 3
+  duration-seconds: 900
 
-meteorites:
+meteors:
   enabled: true
+  minimum-interval-minutes: 60
+  maximum-interval-minutes: 180
+
+weapons:
+  enabled: true
+  ability-particles: true
 
 skills:
   enabled: true
+  maximum-points-per-skill: 10
 
 messages:
-  prefix: "&5&lUltimateRPG &8» "
+  prefix: "&8[&6UltimateRPG&8] "
+  no-permission: "&cDafür hast du keine Berechtigung."
+  player-only: "&cDieser Befehl ist nur für Spieler."
+  player-loaded: "&aDein RPG-Profil wurde geladen."
+  database-error: "&cEs gab einen Datenbankfehler."
+
   no-permission: "&cDafür hast du keine Berechtigung!"
   player-only: "&cDieser Befehl ist nur für Spieler!"
