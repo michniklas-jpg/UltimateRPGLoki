@@ -1,1 +1,38 @@
-weapons: {}
+
+weapons:
+  flame_blade:
+    name: "&6Flammenklinge"
+    material: DIAMOND_SWORD
+    rarity: LEGENDARY
+    boss: infernal_king
+    damage: 12.0
+    ability:
+      type: FIRE_BURST
+      cooldown: 20
+      radius: 5.0
+      damage: 8.0
+    upgrade:
+      max-level: 5
+      damage-per-level: 2.0
+
+  void_reaper:
+    name: "&5Leeren-Sense"
+    material: NETHERITE_HOE
+    rarity: MYTHIC
+    boss: void_lord
+    damage: 16.0
+    ability:
+      type: VOID_STRIKE
+      cooldown: 30
+      radius: 6.0
+      damage: 12.0
+    upgrade:
+      max-level: 5
+      damage-per-level: 3.0
+
+rarities:
+  COMMON: "&f"
+  RARE: "&9"
+  EPIC: "&5"
+  LEGENDARY: "&6"
+  MYTHIC: "&d"
