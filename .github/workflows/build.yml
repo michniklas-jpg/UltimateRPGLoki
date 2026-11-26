@@ -9,20 +9,26 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '21'
           cache: maven
 
-      - name: Build
-        run: mvn clean package
+      - name: Check Java
+        run: java -version
 
-      - name: Upload JAR
-        uses: actions/upload-artifact@v4
+      - name: Build Plugin
+        run: mvn --batch-mode clean package
+
+      - name: Upload Plugin
+        uses: actions/upload-artifact@v5
         with:
           name: UltimateRPG
           path: target/*.jar
