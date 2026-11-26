@@ -1,0 +1,31 @@
+
+settings:
+  random-spawn: true
+  spawn-interval-minutes: 30
+  max-active: 3
+  run-duration-seconds: 900
+  group-size: 4
+
+difficulties:
+  easy:
+    health-multiplier: 1.0
+    reward-multiplier: 1.0
+
+  medium:
+    health-multiplier: 2.0
+    reward-multiplier: 2.0
+
+  hard:
+    health-multiplier: 4.0
+    reward-multiplier: 4.0
+
+rewards:
+  easy:
+    coins: 250
+    battlepass-xp: 100
+  medium:
+    coins: 750
+    battlepass-xp: 250
+  hard:
+    coins: 2000
+    battlepass-xp: 750
