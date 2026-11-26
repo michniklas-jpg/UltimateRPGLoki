@@ -1,19 +1,39 @@
-
 name: UltimateRPG
 version: 1.0.0
 main: de.ultimaterpg.UltimateRPG
-api-version: '1.21'
+api-version: '1.21.11'
 author: UltimateRPG
+description: A complete modular Minecraft RPG experience
 
 commands:
-  urpg:
-    description: UltimateRPG Hauptmenü
-    usage: /urpg
-    aliases:
-      - rpg
-      - ultimaterpg
+  rpg:
+    description: Opens the UltimateRPG menu
+    usage: /rpg
+    aliases: [ultimaterpg]
+
+  quest:
+    description: Opens the quest menu
+    usage: /quest
+
+  skill:
+    description: Opens the skill menu
+    usage: /skill
+
+  battlepass:
+    description: Opens the battle pass
+    usage: /battlepass
+    aliases: [bp]
+
+  rpgadmin:
+    description: UltimateRPG administration
+    usage: /rpgadmin
+    permission: ultimaterpg.admin
 
 permissions:
   ultimaterpg.admin:
-    description: UltimateRPG Administration
+    description: Allows administration of UltimateRPG
     default: op
+
+  ultimaterpg.use:
+    description: Allows access to RPG systems
+    default: true
