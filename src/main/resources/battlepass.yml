@@ -1,0 +1,47 @@
+
+season:
+  name: "Season 1 - Awakening"
+  duration-days: 60
+  max-level: 50
+  xp-per-level: 1000
+
+premium:
+  enabled: true
+  permission: ultimaterpg.battlepass.premium
+
+rewards:
+  1:
+    free:
+      coins: 100
+    premium:
+      coins: 500
+
+  5:
+    free:
+      material: IRON_INGOT
+      amount: 16
+    premium:
+      material: DIAMOND
+      amount: 5
+
+  10:
+    free:
+      coins: 500
+    premium:
+      material: EMERALD
+      amount: 32
+
+  25:
+    free:
+      material: GOLDEN_APPLE
+      amount: 3
+    premium:
+      coins: 2500
+
+  50:
+    free:
+      material: DIAMOND
+      amount: 32
+    premium:
+      material: NETHERITE_INGOT
+      amount: 3
