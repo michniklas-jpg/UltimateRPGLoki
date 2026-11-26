@@ -1,1 +1,39 @@
-quests: {}
+
+daily:
+  kill_zombies:
+    name: "&cZombie-Jäger"
+    type: KILL_MOB
+    target: ZOMBIE
+    amount: 25
+    rewards:
+      coins: 150
+      xp: 100
+      battlepass-xp: 100
+
+  mine_stone:
+    name: "&7Steinbrecher"
+    type: MINE_BLOCK
+    target: STONE
+    amount: 128
+    rewards:
+      coins: 200
+      xp: 150
+      battlepass-xp: 150
+
+  fishing:
+    name: "&bAngler"
+    type: FISH
+    amount: 10
+    rewards:
+      coins: 250
+      battlepass-xp: 150
+
+weekly:
+  kill_players:
+    name: "&4Krieger"
+    type: KILL_PLAYER
+    amount: 10
+    rewards:
+      coins: 1500
+      xp: 1000
+      battlepass-xp: 750
