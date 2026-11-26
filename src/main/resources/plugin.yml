@@ -1,0 +1,11 @@
+
+name: UltimateRPG
+version: 1.0.0
+main: de.ultimaterpg.UltimateRPG
+api-version: '1.21'
+author: UltimateRPG
+
+commands:
+  urpg:
+    description: UltimateRPG Hauptbefehl
+    usage: /urpg
